@@ -64,5 +64,5 @@ for passw in passwords:
         print(f"Error {response.status_code} while trying to log in")
     
     # Aguardar antes de tentar novamente
-    print('\nSleeping for 5 minutes...\n')
-    time.sleep(300)
+    print('\nSleeping for 1 seconds...\n')
+    time.sleep(1)
